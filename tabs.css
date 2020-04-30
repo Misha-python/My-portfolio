@@ -1,0 +1,32 @@
+.tabs { 
+    width: 100%; 
+    padding: 0px; 
+    margin: 0 auto; 
+}
+
+.tabs > input { 
+    display: none; 
+}
+
+.tabs > div {
+    display: none;
+    padding: 12px;
+    background: #FFFFFF;
+}
+
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #000000;
+    background: #fff;
+    cursor: default;
+}
+
+.tabs > input:checked + label {
+    display: none;
+}
+
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2 { display: block; }
