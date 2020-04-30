@@ -1,2 +1,2 @@
-# My-first-site
-My first repository in GitHub
+# My portfolio
+My portfolio in GitHub
